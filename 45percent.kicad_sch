@@ -1,0 +1,8161 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "759fd925-825a-4daf-8537-7345660bb91b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:BAV70"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAV70"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV70_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_marbastlib-promicroish:Arduino_ProMicro"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ProMicro"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-xp-promicroish:ProMicro_USBup"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol for an Arduino Pro Micro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Arduino_ProMicro_0_0"
+				(pin bidirectional line
+					(at -12.7 13.97 0)
+					(length 2.54)
+					(name "D3-TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "E6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -13.97 0)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "F4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "F5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "F6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "D2-RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "F7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_ProMicro_1_0"
+				(pin bidirectional line
+					(at 12.7 13.97 180)
+					(length 2.54)
+					(name "B0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_ProMicro_1_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push_45deg"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_45deg_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 147.32 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be08bc5-8da5-45dc-9386-4daec16355a5")
+	)
+	(junction
+		(at 58.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7264f0-762f-40b9-8b26-61722d555b25")
+	)
+	(junction
+		(at 33.02 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11fc49ff-467b-4b4b-b780-9ca2e441e0ec")
+	)
+	(junction
+		(at 81.28 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13cdfe9f-76cc-4e7a-8646-38fe21ef352d")
+	)
+	(junction
+		(at 71.12 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28bf2216-24ba-4a6d-8a84-2153aa3b4cea")
+	)
+	(junction
+		(at 43.18 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eb3670a-27a3-4652-aa77-8f19d114b470")
+	)
+	(junction
+		(at 62.23 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2faa07d0-8dbc-41f7-b2d8-db52a1d1a199")
+	)
+	(junction
+		(at 121.92 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8a25b9-4727-4f7c-8b53-de222b31603f")
+	)
+	(junction
+		(at 96.52 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f57f087-2f29-4808-84fa-28a2f3f5f9d8")
+	)
+	(junction
+		(at 71.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f2fcc1-71e2-43a4-8f6d-87c89cdf8ed9")
+	)
+	(junction
+		(at 134.62 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4632fdef-aada-4405-bca6-56e6e6fac828")
+	)
+	(junction
+		(at 33.02 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fca8d06-2921-4f3e-8d3a-b6760090b596")
+	)
+	(junction
+		(at 121.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50af0d05-2cd9-4eb5-9f9e-2c5897c82d38")
+	)
+	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "547b3a28-e1b2-4e6b-aa44-eb95601671ce")
+	)
+	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58862a7c-beb8-4ab6-9dab-991f19d82f6f")
+	)
+	(junction
+		(at 109.22 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ab2ae1e-2281-405e-92e5-9ad8e9c0067c")
+	)
+	(junction
+		(at 71.12 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb00502-d854-4f22-ab24-fd00ab6bcb60")
+	)
+	(junction
+		(at 45.72 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6c5fc5-0c43-46f4-80d3-be2540309040")
+	)
+	(junction
+		(at 33.02 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61c3bea0-f584-439b-b0f2-70668c67fb4c")
+	)
+	(junction
+		(at 71.12 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a6cd67f-ac2d-4e5e-bcec-5aae0e0dc22a")
+	)
+	(junction
+		(at 134.62 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c8aef82-f195-4df1-87e1-a6d561623082")
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72131988-7063-427e-94d6-49898aeedc45")
+	)
+	(junction
+		(at 109.22 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80e19f0f-3d8a-4323-9094-de5649028c59")
+	)
+	(junction
+		(at 88.9 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c423106-9db9-48ce-8879-9c219c567e65")
+	)
+	(junction
+		(at 132.08 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da493ab-b6bb-4a50-a0e0-81f07fb61aaa")
+	)
+	(junction
+		(at 119.38 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99dc28c6-11d3-421a-830a-e2e2828bf74c")
+	)
+	(junction
+		(at 45.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c29f7a2-e832-4b9a-82a5-ddcec6c3a217")
+	)
+	(junction
+		(at 58.42 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3171033-acbc-4be8-ab3f-da7fe779cd2a")
+	)
+	(junction
+		(at 134.62 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae806202-c816-45c5-b459-d20d4fc8715f")
+	)
+	(junction
+		(at 130.81 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af842012-1af7-4a8b-bb01-b4c62f519f81")
+	)
+	(junction
+		(at 69.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1fad050-2863-4ccb-a1e7-8b82cc1a7fec")
+	)
+	(junction
+		(at 58.42 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d61bce-521f-499e-bd9c-d86e21df44a9")
+	)
+	(junction
+		(at 109.22 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be25853c-9489-4b49-a0ae-58664f12d376")
+	)
+	(junction
+		(at 104.14 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ecd3ce-c7ca-4ed9-ad40-41417e252603")
+	)
+	(junction
+		(at 109.22 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e8ee28-59a6-46e8-b12b-61f71819edca")
+	)
+	(junction
+		(at 121.92 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce795635-fb4d-47b1-9a48-3ae6199d83ec")
+	)
+	(junction
+		(at 58.42 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceac4c7b-b543-4c71-bbec-08d2d4331a34")
+	)
+	(junction
+		(at 134.62 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d539e685-b5c7-4cc7-af8e-d2f161d16871")
+	)
+	(junction
+		(at 144.78 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d768619b-d786-4b96-9907-11634cc4d815")
+	)
+	(junction
+		(at 55.88 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da31d048-3ee3-40c3-8790-b902f99049f8")
+	)
+	(junction
+		(at 157.48 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea131d4e-b541-45c8-bd9e-bf2537581193")
+	)
+	(junction
+		(at 170.18 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed7494a1-8758-48a7-b6e5-61348f886b54")
+	)
+	(junction
+		(at 93.98 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef39a12e-f471-4a29-9fe3-eba6ec159c6c")
+	)
+	(junction
+		(at 147.32 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f28cac18-2f96-462c-9987-19467d5af107")
+	)
+	(junction
+		(at 45.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f35298b6-be91-430c-83e0-684ea7cdcfd8")
+	)
+	(junction
+		(at 45.72 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb594aed-5ed0-41a4-9b88-a04fc960a384")
+	)
+	(junction
+		(at 33.02 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe4a19b-2492-4dac-b131-bce1586afa5e")
+	)
+	(junction
+		(at 147.32 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb15e38-d1e3-4036-8b0d-dad82cb2e860")
+	)
+	(no_connect
+		(at 226.06 45.72)
+		(uuid "125cb2bc-2ee1-4cfd-81ec-c7b2603382b2")
+	)
+	(no_connect
+		(at 251.46 63.5)
+		(uuid "2feae5e8-97d1-49d9-b379-e6770f57c725")
+	)
+	(no_connect
+		(at 251.46 66.04)
+		(uuid "36a8f6e5-44ec-4f41-9793-3860bb9ade5e")
+	)
+	(no_connect
+		(at 251.46 68.58)
+		(uuid "62dcbdad-37e3-4485-b8e7-940de1a5e801")
+	)
+	(no_connect
+		(at 226.06 48.26)
+		(uuid "6f3a3581-1004-485e-865a-65f6ce7e2872")
+	)
+	(no_connect
+		(at 251.46 60.96)
+		(uuid "7706d251-4f42-4164-93a2-fa31bfe622c3")
+	)
+	(no_connect
+		(at 251.46 43.18)
+		(uuid "8f5280c7-e586-42e4-85d7-a6422b196f15")
+	)
+	(no_connect
+		(at 251.46 45.72)
+		(uuid "a7a86f28-95e6-4983-8594-daaa1c5c8ff1")
+	)
+	(no_connect
+		(at 251.46 40.64)
+		(uuid "c06bbf16-1c85-4b81-8f72-9681bd745951")
+	)
+	(no_connect
+		(at 251.46 48.26)
+		(uuid "e1a7eec4-0ee7-49e8-9173-92a5037350af")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007cdc14-64ce-4481-a8ef-db269f3789dd")
+	)
+	(wire
+		(pts
+			(xy 62.23 121.92) (xy 62.23 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eba27b-75bd-40b3-9f26-cf9fcf61f5d5")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0626b13a-e8e2-49f1-838d-729638e8d011")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 83.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c14323e-6fcf-47ae-a888-e454698e421e")
+	)
+	(wire
+		(pts
+			(xy 147.32 38.1) (xy 160.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c295516-d8cb-419c-8455-1cfb7868341e")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 130.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d78fe13-b0a8-4497-91bf-e7b6e53b4c99")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdb0d40-590f-4d90-a0d3-3f1bb7c8f984")
+	)
+	(wire
+		(pts
+			(xy 170.18 27.94) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d220ac2-7bbf-48e7-8fe3-c361a4e1b0d0")
+	)
+	(wire
+		(pts
+			(xy 132.08 27.94) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f79570d-e400-40df-a250-bb4720104540")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2111b995-87b9-4e0e-a5d5-107d6c381d05")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2198b053-4807-402c-8980-c4eafa74a7df")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a7dd7f-c2f6-4014-9298-26f522a8d306")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2361744f-9402-4c65-af44-c0572a860411")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bb39ac-d2db-4b90-b5fd-feea1837f7f4")
+	)
+	(wire
+		(pts
+			(xy 43.18 27.94) (xy 43.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252b99ee-1124-43ee-84e2-a005b6586f63")
+	)
+	(wire
+		(pts
+			(xy 55.88 27.94) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280279e5-3f9c-4205-877b-6b08b227a939")
+	)
+	(wire
+		(pts
+			(xy 115.57 121.92) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd8abe1-0825-4e88-818d-71995b827f88")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fc1ae7-631a-40cb-9136-14dac6c31d94")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390a50cc-f69d-4f46-ac66-fad402443c98")
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf35d71-9069-4688-a2c3-2a7c0f9f420a")
+	)
+	(wire
+		(pts
+			(xy 121.92 38.1) (xy 134.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d18de2e-54c9-4e98-ada2-cf83edd1c255")
+	)
+	(wire
+		(pts
+			(xy 62.23 132.08) (xy 62.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0efdd5-ce72-4864-b2fa-9dfa74a9c6ad")
+	)
+	(wire
+		(pts
+			(xy 109.22 38.1) (xy 121.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5667af62-b327-4b5c-97ac-1371bed556bb")
+	)
+	(wire
+		(pts
+			(xy 119.38 27.94) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573052a7-97ec-4c75-89be-72880bcda403")
+	)
+	(wire
+		(pts
+			(xy 83.82 116.84) (xy 83.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce7597f-87b0-470a-a33f-f9624e44e037")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f81b325-fb97-4ec8-b2c2-6735901eb79d")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606ca9c4-ce35-4c31-a45f-2d8c00dd76c1")
+	)
+	(wire
+		(pts
+			(xy 30.48 76.2) (xy 33.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6407f2fa-5767-4c83-a66f-d1685d42fa7e")
+	)
+	(wire
+		(pts
+			(xy 43.18 50.8) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad11ffe-9ef6-4b33-b0bf-daa261e5f42d")
+	)
+	(wire
+		(pts
+			(xy 57.15 116.84) (xy 57.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b157f4d-7b2f-45f3-a00a-2961f277c399")
+	)
+	(wire
+		(pts
+			(xy 30.48 101.6) (xy 33.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3b90af-e374-4a93-b0f7-ed8fd256c94a")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749ad35f-96d5-4bd2-9887-257766c925c3")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74de6c48-5723-4b68-b70a-5faf45a1f337")
+	)
+	(wire
+		(pts
+			(xy 45.72 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d88440-b442-467e-84b1-43d4938298a1")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a731996-6481-45fe-8fe7-7da915c3e2fa")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adcd42e-6c62-4923-b457-27ad61f90aed")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfd6920-b84f-4516-ab82-923b3f58cfce")
+	)
+	(wire
+		(pts
+			(xy 104.14 132.08) (xy 104.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dbfcc4-d2d0-4bea-9f9b-7bc258b1404d")
+	)
+	(wire
+		(pts
+			(xy 77.47 132.08) (xy 77.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c0d636-ee5e-4e79-848e-f55e47911c80")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c48d804-a879-4252-9722-38c85c702f8a")
+	)
+	(wire
+		(pts
+			(xy 106.68 38.1) (xy 109.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1e6f80-3471-4bbe-bcdd-e9e692398521")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed2aa39-5c54-4db4-a9da-afb7910e74a8")
+	)
+	(wire
+		(pts
+			(xy 81.28 27.94) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bf641f-bdb2-4857-9487-e05bdbdaafde")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b97aa42-5ba3-434d-88fd-3cb06d11f958")
+	)
+	(wire
+		(pts
+			(xy 96.52 153.67) (xy 123.19 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03b8ac8-894e-4803-81ee-8f5c4a9fa577")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20b502c-ba40-483d-9eec-8e414ecc0c39")
+	)
+	(wire
+		(pts
+			(xy 134.62 63.5) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3bdd635-05d4-4f72-b199-483cf77b637d")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5106235-6c7d-4ba9-95b0-b1d5654ca099")
+	)
+	(wire
+		(pts
+			(xy 134.62 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63080f0-a0c2-4af8-9852-ac3108372427")
+	)
+	(wire
+		(pts
+			(xy 106.68 63.5) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab575e32-b17b-4b94-8c03-0bff42e140ef")
+	)
+	(wire
+		(pts
+			(xy 144.78 27.94) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc68988-8ccd-4354-86b4-f85d3cd3facf")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad45e17f-8ab6-4d09-a60a-1eda10cb0dbb")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c0040d-5efa-4b5e-934d-f02d58b21942")
+	)
+	(wire
+		(pts
+			(xy 68.58 27.94) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ac900a-bc63-4650-8d9c-9a3ae5938bd9")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e07404-9673-4b80-b5e3-4e3df0e56334")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a82554-f4bb-4adb-a4e1-12fde124b276")
+	)
+	(wire
+		(pts
+			(xy 45.72 63.5) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfb238e-ef11-408b-bee6-d8088eeb7d0b")
+	)
+	(wire
+		(pts
+			(xy 88.9 121.92) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8c9c36-705e-4813-8f53-bd44e8dd4ea4")
+	)
+	(wire
+		(pts
+			(xy 130.81 132.08) (xy 130.81 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c152b63c-026d-4e82-b827-b6c8be811cc1")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1587ab6-4c27-446d-b963-765daa014398")
+	)
+	(wire
+		(pts
+			(xy 157.48 27.94) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c217f5b9-6edb-474b-ae72-875c4a4de014")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c417f695-ac4c-45f1-8614-a24d922403c4")
+	)
+	(wire
+		(pts
+			(xy 72.39 116.84) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63defe6-6f8b-4dbe-80c0-d119619b0999")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c687f9c6-c2cb-432e-b57a-847431f41551")
+	)
+	(wire
+		(pts
+			(xy 93.98 27.94) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8abe679-0713-4216-8b83-14adc795e5f7")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadf4b28-91aa-402e-bacb-08697e5b4edc")
+	)
+	(wire
+		(pts
+			(xy 81.28 50.8) (xy 81.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce50f405-2485-4a2a-b2d4-0517ab164e6e")
+	)
+	(wire
+		(pts
+			(xy 33.02 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdbdf74-1ae5-4d6d-a831-48b1937df9d1")
+	)
+	(wire
+		(pts
+			(xy 71.12 101.6) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05ddb7a-2415-4f05-a41f-9da78c1c827c")
+	)
+	(wire
+		(pts
+			(xy 69.85 153.67) (xy 96.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d095b8f1-0f80-48b0-87ae-8651137cbf4f")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cd1af5-6bf6-45cd-8729-14cf24b17a76")
+	)
+	(wire
+		(pts
+			(xy 58.42 153.67) (xy 69.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacaefc1-3359-4392-9744-f8faf3bff760")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd4389b-5e9f-4a70-a198-e13cdd4071bf")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e194d370-de0b-4e13-a067-36e17893fb3e")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0e28bc-30af-4822-aba9-8dd82395a731")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 45.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2be751e-c2b3-4ac2-b1e1-2ab1669d5933")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 71.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc88d08a-bfa9-4e63-bcde-afcad3f75bb9")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1b3c31-21f6-49d1-8651-61172b70d6da")
+	)
+	(global_label "R3"
+		(shape input)
+		(at 72.39 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0463e060-10a0-41da-8dd0-93baa15d56dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.9253 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R5"
+		(shape input)
+		(at 251.46 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fdfbdc7-5c8e-4f2e-bc0f-11ef4d25c283")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.9247 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C6"
+		(shape input)
+		(at 226.06 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "170e96af-10c1-45e1-a6d1-0fc5af50a60a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 226.06 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18733be4-3197-444c-9b53-1122478ee6bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 93.98 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c7d6be1-7e4c-4290-802f-c556047434f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 57.15 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1eb22ca7-bfe5-41df-add1-d9e8127d0b72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.6853 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 81.28 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23eec405-d8fd-4f87-ad6a-ddcce166869f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R7"
+		(shape input)
+		(at 106.68 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ad18b55-2f72-42ec-9cdb-3dadcf30701d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2153 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 43.18 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b9968b2-2814-46b1-997e-3bc10c3c7913")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 30.48 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "490c7315-d1fc-4b1d-8516-295bd1df842d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0153 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 226.06 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d533249-ae18-4151-99bf-6568364b90d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R8"
+		(shape input)
+		(at 251.46 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d6b4e98-c132-4e79-beec-5dc214a2f206")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.9247 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 144.78 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "521e965d-03d8-4841-8580-d8a59ba63c36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape input)
+		(at 83.82 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "549829c1-b52c-425b-b0c5-f44a40133adc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.3553 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 226.06 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59bbcd62-2d38-4502-b32a-9ca0b1c9ff66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 226.06 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ace016d-70e1-4fa9-86b1-c8ecab427330")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 226.06 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ca69643-fa50-4394-9136-4b8837cac250")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 132.08 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "634df225-555a-4bda-8ba3-2faf371a7b0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 55.88 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "663f4aa5-a31e-4c7a-b18d-716fdb971de5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 157.48 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68fa959c-ed68-4ebf-8d80-ea8b8e2b63fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R8"
+		(shape input)
+		(at 99.06 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b6afce3-b3b8-4ed3-8738-9b0b34c2b0d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.5953 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape input)
+		(at 30.48 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "871ee0e0-ff41-4f43-ba32-580dc3f082d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0153 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 226.06 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94651d3a-b16b-4ef3-b3fe-6a21c7a8da1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R6"
+		(shape input)
+		(at 125.73 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97c168d3-b74e-4cd1-ab91-f059ea528394")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2653 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R7"
+		(shape input)
+		(at 110.49 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c3c5e60-4513-4068-a858-e6c05ee2aee6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.0253 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R8"
+		(shape input)
+		(at 106.68 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c6f6c3d-e725-4bd0-9d5a-da6a48f7c559")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2153 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C6"
+		(shape input)
+		(at 58.42 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3bb3877-0e1f-4828-8be1-b75f4c099e3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.9553 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R6"
+		(shape input)
+		(at 251.46 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9e96466-6c94-4364-b7d1-d3aec952ac22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.9247 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 226.06 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b91bb8b0-9804-421b-a9cc-dfb833aef02a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 68.58 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba3c6851-27f7-43ec-9b93-ff58a5a64278")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 226.06 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb70cee6-aa9a-4b5c-9ee0-2a6643c3e409")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape input)
+		(at 30.48 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd064a54-72d8-460c-b709-b4666b179839")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0153 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 119.38 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0ac5d99-b58f-4ed3-9f3f-bc379b2083b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R6"
+		(shape input)
+		(at 106.68 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e18d441c-47da-4763-ae83-d36bc23b0d95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2153 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R5"
+		(shape input)
+		(at 106.68 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec5fcf88-be37-4bc8-9c6d-44353758f8a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2153 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 30.48 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef874d6d-2da4-461b-8fc9-dd6c753c292e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0153 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R7"
+		(shape input)
+		(at 251.46 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efd8943b-60c6-4c4f-b995-1a07ddad4048")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.9247 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 170.18 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f13856e6-09a9-46c0-9250-4eb11aad7664")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 22.4753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 226.06 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f67d3ee3-f725-49af-aad9-841965710c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 50.8 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "008eed5b-2c30-4620-aeec-71503e3f6066")
+		(property "Reference" "D12"
+			(at 48.26 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 48.26 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eaf69bf-3384-4c54-9e99-94c7d804c0a8")
+		)
+		(pin "2"
+			(uuid "ce897d00-7974-40e6-91f7-99a1f14c247c")
+		)
+		(pin "3"
+			(uuid "87a577ec-773e-4b00-af1c-385080f688ff")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00d9c2c8-6747-44b0-a300-f229672758c2")
+		(property "Reference" "SW25"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d073aa86-89ea-43ea-a17c-f90889bb8f96")
+		)
+		(pin "1"
+			(uuid "45f8a442-32e1-4e96-bf52-b01505bb8fd0")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 137.16 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03319f39-add6-4598-ab0b-c29c8f96da80")
+		(property "Reference" "SW28"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e66a9e7e-f45b-46ff-a95a-a6cf58b46e3e")
+		)
+		(pin "1"
+			(uuid "9274a6a5-3507-4040-a594-d476e23b22ba")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 48.26 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b45519-226f-4d50-b3cc-b5fcfb0058c2")
+		(property "Reference" "SW2"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7c3f693-9e5b-47d3-a5f7-dcd86c4262bc")
+		)
+		(pin "1"
+			(uuid "d2d3485c-f614-404d-8cf9-8da76a787a97")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 60.96 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "152e5b5e-7226-4be7-823a-39f35fdc3bce")
+		(property "Reference" "SW3"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "255e2c0f-7721-4eed-9440-c633ec3dc9d9")
+		)
+		(pin "1"
+			(uuid "d444a959-1a5a-45bb-8549-c0d1fbd68975")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 165.1 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16db7192-806c-4ba8-b5be-70c6f125c7c6")
+		(property "Reference" "D20"
+			(at 162.56 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 162.56 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e2df65-de82-4bb7-bf76-14e19274d1d4")
+		)
+		(pin "2"
+			(uuid "f7be208e-3731-4281-b2ee-f7ff9c71ee23")
+		)
+		(pin "3"
+			(uuid "1636c767-2c69-4fa8-a236-a236b12e3f3a")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 101.6 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e5ec02-0400-426e-92b4-da8865abfc1e")
+		(property "Reference" "SW43_1"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edb8dc2e-7671-42c0-bb5b-a75e8cc2d694")
+		)
+		(pin "1"
+			(uuid "714bfbc6-29f2-492f-af33-5baf3b4da758")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW43_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 73.66 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce3daea-ce41-4687-9ba0-4846ddf302ff")
+		(property "Reference" "SW14"
+			(at 77.47 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 77.47 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52e52ed0-8caf-4a65-91bd-361cd13ec855")
+		)
+		(pin "1"
+			(uuid "4998dd16-bc27-467b-b1e5-7f75f29423bb")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 60.96 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d511608-0a7d-4ed8-95ce-20a8ba26530d")
+		(property "Reference" "SW33"
+			(at 64.77 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 64.77 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d2a85eb-8d1b-4a42-ac69-9bb14bb8da89")
+		)
+		(pin "1"
+			(uuid "56edd464-6468-41c0-9fbc-9f3a67b9bff1")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 162.56 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f38bc54-1926-4b33-840b-0f1f88bbe8d4")
+		(property "Reference" "SW30"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "066afbda-ae04-407a-a603-8c6dc41792bf")
+		)
+		(pin "1"
+			(uuid "5e93fc8f-280d-4f7c-b09f-0c1c8434c0ea")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 50.8 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fedb274-3cb2-4525-ba2f-cc266ae0482e")
+		(property "Reference" "D2"
+			(at 48.26 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 48.26 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e2f4f2-dd3c-4f8a-885f-d76016a28e84")
+		)
+		(pin "2"
+			(uuid "f86217ef-ed46-4fd3-a7b6-327fd96036ce")
+		)
+		(pin "3"
+			(uuid "f8433879-7e1c-4be3-805a-44c0b49dab2a")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 152.4 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2678274b-72da-407e-b13e-c7c4b2c130a9")
+		(property "Reference" "D19"
+			(at 149.86 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 149.86 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a31710-a73b-4e15-8e00-005807353993")
+		)
+		(pin "2"
+			(uuid "61bb17a5-ab16-4118-ac66-d0d67077cb7b")
+		)
+		(pin "3"
+			(uuid "c58dad0e-ecce-4bd5-970e-876b60549d33")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 137.16 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27f12052-b8d5-4c06-bd7e-2a441ab0956d")
+		(property "Reference" "SW18"
+			(at 140.97 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 140.97 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2684ad4c-4a0c-424e-966c-5902c8e769d3")
+		)
+		(pin "1"
+			(uuid "88efb1da-7a3b-4b57-b288-a394db3085d9")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 127 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "293eebb8-6081-407e-bac4-cda333a0635b")
+		(property "Reference" "D7"
+			(at 124.46 50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 124.46 49.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe1aeaf-cb8e-4539-bd9d-e6777b03c7d5")
+		)
+		(pin "2"
+			(uuid "d554eac2-dfd9-423d-ae5d-1ec1b54a1551")
+		)
+		(pin "3"
+			(uuid "707a48ea-378f-498d-bfe8-3a3e0ff58f66")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 60.96 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e308307-49e8-4d6f-b1bd-915919e2603b")
+		(property "Reference" "SW13"
+			(at 64.77 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 64.77 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a38e0ced-d767-4e90-a55c-90f60f8797e2")
+		)
+		(pin "1"
+			(uuid "131f7a82-f1e5-4401-a766-b3c729d3fd60")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 38.1 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ea98a48-698d-4db2-ab16-8ee5bfd8b1f7")
+		(property "Reference" "D1"
+			(at 35.56 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 35.56 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acc8a13a-c2ad-4d04-8f53-f35960886ae7")
+		)
+		(pin "2"
+			(uuid "1b49c19a-92e3-40e3-a6ea-803da845eaa9")
+		)
+		(pin "3"
+			(uuid "a40f8fc3-25c3-485e-839a-68094420e51e")
+		)
+		(instances
+			(project ""
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 59.69 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ef92135-83ab-4674-9c63-e349ea5dca00")
+		(property "Reference" "SW41_1"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f96d6209-02f6-4a16-b338-e8a7f7d7a177")
+		)
+		(pin "1"
+			(uuid "ee01a4f9-b42e-4ee5-8f5a-9ce80c5cee3a")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW41_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 113.03 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fcf339-9942-4447-ac82-756327662e19")
+		(property "Reference" "SW44_1"
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 113.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1f5f2dd-9d1e-4457-885f-2c6c15718cbf")
+		)
+		(pin "1"
+			(uuid "980a8d5c-0219-448d-832e-ec417a4d0837")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW44_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 73.66 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3450799c-3a89-4500-af3e-1d3d22842653")
+		(property "Reference" "SW4"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4917d682-d635-42a3-8270-ce03f761d199")
+		)
+		(pin "1"
+			(uuid "546c1d5d-7b7c-4c1c-abc7-03e3e67adf5b")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 63.5 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36cc0a0f-8cb3-4156-bb04-de0386d7cfbe")
+		(property "Reference" "D3"
+			(at 60.96 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 60.96 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e236fd7c-0900-4a4f-98cc-a1fb70aa7188")
+		)
+		(pin "2"
+			(uuid "3094b749-1488-4c46-8131-55cfc54f8b4f")
+		)
+		(pin "3"
+			(uuid "c587e7ca-3989-4d6f-877e-9493dc9078a6")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 69.85 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38239c79-db7f-4813-ab29-803d59af1ae3")
+		(property "Reference" "D21"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 71.1199 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 69.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a12393-4870-4a9e-ad47-b32689c6779e")
+		)
+		(pin "2"
+			(uuid "6293909b-cc77-4350-9cb1-0b855b222d7e")
+		)
+		(pin "3"
+			(uuid "af8e34a3-aa95-4bc0-8fa7-ad2c58837861")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 88.9 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3884b2b7-62f3-4b35-b866-aeca98c188cb")
+		(property "Reference" "D15"
+			(at 86.36 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 86.36 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2edbeb-25aa-4984-b9dc-8b37bcc0c843")
+		)
+		(pin "2"
+			(uuid "09083705-72d1-4d2a-921b-601d2193f2eb")
+		)
+		(pin "3"
+			(uuid "0a5a19c6-7943-42db-a231-4425cc5d2eb2")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 60.96 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c147e06-39ea-4b63-9b5f-b65c2f6a77fc")
+		(property "Reference" "SW23"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 60.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdf9eaeb-072e-414e-9fa1-a166a8f7cf01")
+		)
+		(pin "1"
+			(uuid "ead7bd8e-3688-4d0b-94ae-ab8b4f3abb5e")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 38.1 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c69e87e-34b0-40e4-b56a-8ef95a774d03")
+		(property "Reference" "D11"
+			(at 35.56 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 35.56 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f910db60-478c-4f01-b2a9-d9fd38e566e2")
+		)
+		(pin "2"
+			(uuid "7d52bba3-8130-48b4-aee5-e1dbae794bb4")
+		)
+		(pin "3"
+			(uuid "f612ff73-1c97-4fa0-bcbb-86089a20baea")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 35.56 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e5d56c-c564-48c2-bfaf-e0ba4c4c4e0b")
+		(property "Reference" "SW11"
+			(at 39.37 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 39.37 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41ca98c3-0146-4a22-89f4-51340e8b683a")
+		)
+		(pin "1"
+			(uuid "f8d1cf01-2851-4456-9a2f-b65818a735da")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 48.26 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "454d7817-0b16-4eff-9dc1-b5c97ae99ddc")
+		(property "Reference" "SW22"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d472a60e-f90b-472e-bc55-0d7acb53bca5")
+		)
+		(pin "1"
+			(uuid "00955dc0-5478-40f0-82c4-233974ecc8fd")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 111.76 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470f75f7-94e6-4f72-b66e-e6167e4c800b")
+		(property "Reference" "SW36"
+			(at 115.57 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 115.57 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f85813e7-b484-4999-ac0d-759de0c29edc")
+		)
+		(pin "1"
+			(uuid "2816e5b4-131a-4438-ba28-73e7294efa38")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 137.16 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f22856f-fc1f-4fd3-b552-494302270565")
+		(property "Reference" "SW38"
+			(at 140.97 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 140.97 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c34476bd-deff-4dcf-bed1-1d231d1b3d4e")
+		)
+		(pin "1"
+			(uuid "0b5ff0de-e180-431a-8b10-a7e6dfc22319")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 128.27 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "531dfaa5-0e62-4ce9-9259-a2d308695465")
+		(property "Reference" "SW45"
+			(at 128.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 128.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c64709a-1b45-4d39-9216-43adecd55792")
+		)
+		(pin "1"
+			(uuid "9e01fdc4-c710-4988-b05e-96fc60d913a5")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 74.93 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "537f8735-8ba0-4abf-a922-fa7878b601ed")
+		(property "Reference" "SW42"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4784b8d1-d967-4a39-9133-324725fff720")
+		)
+		(pin "1"
+			(uuid "3aa17724-e0b5-49b3-9589-c2aae4431fe5")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 165.1 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5413960c-ee36-4962-9151-65cfffc9f816")
+		(property "Reference" "D10"
+			(at 162.56 50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 162.56 49.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87d23a0f-75ef-4682-84fe-2846cddf82eb")
+		)
+		(pin "2"
+			(uuid "d5937226-5529-4b4b-81de-6b548aee0dab")
+		)
+		(pin "3"
+			(uuid "482978c6-6e3d-47c8-8023-0e06d3a7565f")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 152.4 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55bbae37-4c3f-4bf6-abb1-72c68ece6f38")
+		(property "Reference" "D9"
+			(at 149.86 50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 149.86 49.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42c49415-fab8-4d4e-80ba-f72ecb82ff8a")
+		)
+		(pin "2"
+			(uuid "729ae37e-3571-4331-8e0d-9bd2a1651efa")
+		)
+		(pin "3"
+			(uuid "a6ee6b41-8f12-41cb-8f25-513e1565c0a3")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 127 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "570958c5-273e-44f5-9555-fa4487044cef")
+		(property "Reference" "D17"
+			(at 124.46 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 124.46 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89056db0-d623-4672-9b39-95222b41bb12")
+		)
+		(pin "2"
+			(uuid "2de83e81-68dd-4f4e-a201-f5eb15db2f6a")
+		)
+		(pin "3"
+			(uuid "a1e567fb-1e1c-478f-bae1-3f432b42c395")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 96.52 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c38e34e-77b4-4641-a21c-762ee64a0dfa")
+		(property "Reference" "D22"
+			(at 96.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 97.7899 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 96.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bb66bd2-cc2e-48fd-8058-a8ad335333d8")
+		)
+		(pin "2"
+			(uuid "cd28ad5e-89ae-4d48-82f3-d7026d44187a")
+		)
+		(pin "3"
+			(uuid "d3d020eb-6737-47c3-a385-24b12032e42c")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 76.2 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d447dd5-a3f9-4829-a0cb-d4547d7d4d02")
+		(property "Reference" "D4"
+			(at 73.66 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 73.66 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbc556f8-f502-4984-9268-52c7d064f25e")
+		)
+		(pin "2"
+			(uuid "d18da6ef-2e02-4b79-bef0-c02cca1da85b")
+		)
+		(pin "3"
+			(uuid "bdec9326-7968-4df9-95a1-224f6f391acf")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 35.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6094e53d-7c26-4b34-a3f7-72b2fd61aead")
+		(property "Reference" "SW1"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81131078-720c-4ef0-a184-fdffdeabb27c")
+		)
+		(pin "1"
+			(uuid "6819e013-c81b-4e75-967e-9e1cc7462ba1")
+		)
+		(instances
+			(project ""
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68406eb8-78c6-4cd3-8a8a-1b84f3ea8431")
+		(property "Reference" "SW43"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65a8fb80-30a7-4b19-8549-23193ea578a9")
+		)
+		(pin "1"
+			(uuid "bd01bcf2-3c63-4694-a07c-3d70d53f2b14")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 114.3 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ad8b31d-c53e-4fc4-a5f4-9acf98d67eb2")
+		(property "Reference" "D16"
+			(at 111.76 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 111.76 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edfe31ad-451d-4147-8eb0-b02902c69a08")
+		)
+		(pin "2"
+			(uuid "664520df-b083-48b0-b176-3247d2af7d81")
+		)
+		(pin "3"
+			(uuid "e884710e-92f8-43a1-a050-3f573f134ea5")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 162.56 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f2ed35a-c5a8-46b2-a198-4319e83e9667")
+		(property "Reference" "SW20"
+			(at 166.37 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 166.37 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c7792be-4884-4aca-9f64-e2824d9ab90f")
+		)
+		(pin "1"
+			(uuid "1e7443f5-8bef-47c4-852f-6bb48b4e9c3f")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 35.56 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7516ac08-ac87-419e-b722-295688aad773")
+		(property "Reference" "SW31"
+			(at 39.37 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 39.37 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9151ccd9-27af-4328-ae0c-8efd8726380f")
+		)
+		(pin "1"
+			(uuid "0862520f-b919-4f5a-b91d-8f39c1896070")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 149.86 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b1f567-c8a8-433d-91bd-eb7585b132c6")
+		(property "Reference" "SW9"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 149.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 149.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "233b9229-07b5-48d0-827e-79f0fc951e4c")
+		)
+		(pin "1"
+			(uuid "a8311a87-1f1d-45a0-b498-a51529003360")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 35.56 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8562252e-ad19-4432-866c-878eb9672f61")
+		(property "Reference" "SW21"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99029fea-efac-4cd1-8f44-756377a8ab58")
+		)
+		(pin "1"
+			(uuid "bdeecc34-c53f-4b0c-bc5b-98a6a215ccd8")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 139.7 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9113e719-509d-403b-ac46-084a2b8b97be")
+		(property "Reference" "D8"
+			(at 137.16 50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 137.16 49.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7effcf6f-0925-4701-a247-476ef9f71156")
+		)
+		(pin "2"
+			(uuid "a02c3512-8ff2-4134-855e-609f93873062")
+		)
+		(pin "3"
+			(uuid "638ecb65-98fa-474a-9be2-c409733285d6")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 111.76 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d8ed8a-19e2-4f90-bdb2-57e73ca53801")
+		(property "Reference" "SW26"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb1c9149-4cbe-40f9-a157-e73d9f3feeb7")
+		)
+		(pin "1"
+			(uuid "c6071e92-7389-4844-8824-ad3bfceb21c7")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 162.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98faad2d-0f33-4162-b6ba-0a2e484e1a5c")
+		(property "Reference" "SW10"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49a7c2d2-2c30-406a-88ef-c390c042af0e")
+		)
+		(pin "1"
+			(uuid "c8a7a580-9f62-4f2d-a960-1fe21c11503d")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 139.7 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a47dc576-0caa-449d-9e94-716b4887e208")
+		(property "Reference" "D18"
+			(at 137.16 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 137.16 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf476e7-150e-46a0-8b6e-ef72a156abb0")
+		)
+		(pin "2"
+			(uuid "a627ca14-32a0-45d6-8e37-8949717beaf7")
+		)
+		(pin "3"
+			(uuid "a4acc42d-b554-43db-a35e-cff635ba2b5f")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 124.46 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4cbe4f3-5408-4cec-b897-a095c8e42727")
+		(property "Reference" "SW27"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "869fed3a-66cc-4273-ac71-059d4e53676e")
+		)
+		(pin "1"
+			(uuid "d88a8d32-7ff4-44e1-8600-640467561ad9")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6ab98bb-388e-4b4b-8a66-ccf5c9088d16")
+		(property "Reference" "SW35"
+			(at 90.17 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 90.17 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d003925e-00ac-4db5-abd4-33deff31614a")
+		)
+		(pin "1"
+			(uuid "777ecafe-633e-42ea-a08e-09b5f3c5dd72")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 88.9 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a93e6ef4-7ea5-4489-9890-713bb4f5411c")
+		(property "Reference" "D5"
+			(at 86.36 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 86.36 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f4ae3a4-545b-42d6-8123-3f38b7342bd4")
+		)
+		(pin "2"
+			(uuid "9a591ed7-1346-4435-bd78-f963f141429b")
+		)
+		(pin "3"
+			(uuid "8a33816d-32e4-471b-9351-f7f20a7ecf9e")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 123.19 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa78ab93-4c7a-4072-8620-4f62c0574fdd")
+		(property "Reference" "D23"
+			(at 123.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 121.9201 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20bf1abe-258c-45ce-bb76-c57e539d0787")
+		)
+		(pin "2"
+			(uuid "3f42baf1-6d14-462e-9c3f-7b620cee3b4e")
+		)
+		(pin "3"
+			(uuid "c0796230-9581-43b7-adc2-4f76516b36ad")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 124.46 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afeebc34-6828-48b3-bca2-022da93eef2e")
+		(property "Reference" "SW7"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4559eb6e-92c1-4756-b302-2aac0bbac7e9")
+		)
+		(pin "1"
+			(uuid "2c0289aa-1dec-47f4-a620-19153c2ecf4b")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 124.46 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e32743-fc1f-4ffd-ae3d-088141725169")
+		(property "Reference" "SW37"
+			(at 128.27 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 128.27 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "456d3c7c-8b31-4e5c-81e7-74dd163274ae")
+		)
+		(pin "1"
+			(uuid "9b067073-cec4-48f3-abe6-274570ddd463")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 73.66 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1cce65f-234e-4430-8fe7-2e61e7431cd1")
+		(property "Reference" "SW24"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8b38a0a-95dc-49bc-8aa3-6f5765e29c66")
+		)
+		(pin "1"
+			(uuid "dbe06593-0819-4951-b6a9-b1c8308b89c7")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 111.76 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb555713-109e-4092-b083-e97b19fd1600")
+		(property "Reference" "SW16"
+			(at 115.57 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 115.57 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ed7aa39-3c6e-426e-b45d-c6d609287703")
+		)
+		(pin "1"
+			(uuid "898bf8d6-bfa2-4420-b7b4-babb44a87f99")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 149.86 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be76f55d-5602-4593-a7e5-eab3e81f9860")
+		(property "Reference" "SW19"
+			(at 153.67 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 153.67 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "475185ec-56b2-4284-a4ad-86bee15688ce")
+		)
+		(pin "1"
+			(uuid "f6a0f77a-5abb-4eab-aaac-6c3fb76bcc2b")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 48.26 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c06fd397-e328-4f6e-9870-e1e0f30e9385")
+		(property "Reference" "SW12"
+			(at 52.07 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 52.07 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e828f94-cbba-44b7-a80b-0f29a0ba627d")
+		)
+		(pin "1"
+			(uuid "80b6c043-5a50-4347-9581-e283bd45ffa5")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 73.66 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f0eefe-3b32-44dc-a440-bb2f765becfa")
+		(property "Reference" "SW34"
+			(at 77.47 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 77.47 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "669495d6-5987-4f6e-9434-3e3e866220a0")
+		)
+		(pin "1"
+			(uuid "f9ef9cab-e19d-49ee-8acc-1d7f94c32679")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-promicroish:Arduino_ProMicro")
+		(at 238.76 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c516a7c3-38ac-43ca-ab80-209e3bfd0f52")
+		(property "Reference" "U1"
+			(at 238.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ProMicro"
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:ProMicro_USBup"
+			(at 238.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for an Arduino Pro Micro"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "b5418a3f-c332-410c-9337-72b10894511b")
+		)
+		(pin "12"
+			(uuid "dab22a97-32f1-4693-9d33-6e6b40205e01")
+		)
+		(pin "10"
+			(uuid "1fa152b9-4445-4230-af48-0f64d1c84b27")
+		)
+		(pin "11"
+			(uuid "accb05da-11ca-4917-8f69-afbf8f9eb1f0")
+		)
+		(pin "22"
+			(uuid "5582e5e7-feb2-4a30-9ed1-8d3b5105622e")
+		)
+		(pin "23"
+			(uuid "6951004b-ae8a-4ee5-bbaf-a634a43d0ef7")
+		)
+		(pin "6"
+			(uuid "40f8c5f1-4d01-426a-9d65-b2af1b206b8f")
+		)
+		(pin "7"
+			(uuid "b63d61c1-e7e2-4056-ba33-b949318f8ac8")
+		)
+		(pin "14"
+			(uuid "6b508f0a-2395-43e7-acdf-dfca0c6ce1bc")
+		)
+		(pin "17"
+			(uuid "a24bb7f2-4e57-46ac-af23-5683a3af236a")
+		)
+		(pin "4"
+			(uuid "6c800247-986e-47bd-8a12-6bf210bf97b1")
+		)
+		(pin "9"
+			(uuid "9456ee5c-cf27-4148-ba53-edb18b89ccae")
+		)
+		(pin "18"
+			(uuid "80887a4b-701d-43ac-93ae-03069fa027b6")
+		)
+		(pin "3"
+			(uuid "0ca650b9-2638-4301-98fc-4afdfa795968")
+		)
+		(pin "1"
+			(uuid "37c02e01-6638-4200-afd8-882c373e9147")
+		)
+		(pin "16"
+			(uuid "a41d007b-1629-4ce5-8ff5-c880b106f5a0")
+		)
+		(pin "19"
+			(uuid "592b8f8a-1960-47db-ad01-95ab0225c7ee")
+		)
+		(pin "24"
+			(uuid "953ff626-1879-4e13-8204-97b4294225c0")
+		)
+		(pin "15"
+			(uuid "b6ee4c37-3837-4e02-866f-d2633c1c7db3")
+		)
+		(pin "21"
+			(uuid "fe06559d-70c3-4b77-9735-5901e00ddbac")
+		)
+		(pin "5"
+			(uuid "d08737f8-dee6-447a-8632-c310c4151863")
+		)
+		(pin "8"
+			(uuid "39febe84-93ca-4d34-96b3-1540a2a97b27")
+		)
+		(pin "2"
+			(uuid "724b8b0b-4086-4ff5-8d39-29c05c615b38")
+		)
+		(pin "20"
+			(uuid "4cb93774-be83-4f10-88fe-9c26249da331")
+		)
+		(instances
+			(project ""
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c57920e5-440a-4a7d-abdb-c58b9a98de02")
+		(property "Reference" "SW15"
+			(at 90.17 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 90.17 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d79ff273-67bd-4e38-8465-d839c034a69f")
+		)
+		(pin "1"
+			(uuid "1dc999b0-6161-42c2-b0da-6e7652a461d9")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 101.6 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c714f969-8647-4da3-bb0e-2aa46dfced2f")
+		(property "Reference" "SW44"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6accb61d-9921-48db-b67a-35f330fe626d")
+		)
+		(pin "1"
+			(uuid "5e397f77-9334-4fe8-bc54-411057b91199")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 149.86 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8288f15-2d12-4e2a-accb-0ea1e803e14c")
+		(property "Reference" "SW39"
+			(at 153.67 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 153.67 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b692f9c-d56c-4421-8056-a28a9899da8a")
+		)
+		(pin "1"
+			(uuid "d12202b7-281e-42a5-887b-215a3d2793ae")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 76.2 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d42f9888-b27e-4747-a3a4-c668e60de782")
+		(property "Reference" "D14"
+			(at 73.66 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 73.66 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "742e27ae-a883-47e3-bcb1-2dfca4108520")
+		)
+		(pin "2"
+			(uuid "b6412b15-86ec-441e-a7d1-a26879dd6a72")
+		)
+		(pin "3"
+			(uuid "82752ed8-d2ad-46ce-a66f-bb9d9b4dc643")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 114.3 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d478f172-6708-4b6a-a11a-c43f8f28c00c")
+		(property "Reference" "D6"
+			(at 111.76 50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 111.76 49.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8a824a7-a08c-47da-9497-838eaf08158a")
+		)
+		(pin "2"
+			(uuid "722145b4-72e8-4861-b704-18529d24a744")
+		)
+		(pin "3"
+			(uuid "55043416-2cdf-45b4-8c37-3f026ce40c6a")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 111.76 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9aa9c6a-d1b5-427f-b959-92869316b929")
+		(property "Reference" "SW6"
+			(at 111.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 111.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76c02543-dcbf-4c01-878b-5bb7ae7d7eae")
+		)
+		(pin "1"
+			(uuid "a80a24be-4013-4d93-a6ab-703153b05e26")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 48.26 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb2af6d-3735-470c-acec-bd8141a83256")
+		(property "Reference" "SW32"
+			(at 52.07 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 52.07 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84001117-8514-4f9b-bffb-420df0db283d")
+		)
+		(pin "1"
+			(uuid "ccb23cad-780d-4784-80b4-7cdd9ce30ce9")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 124.46 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de500a80-70c7-41ca-ac65-f44bebaa79a9")
+		(property "Reference" "SW17"
+			(at 128.27 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 128.27 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c5a17ec-d47b-4bcc-ba98-084f1575f636")
+		)
+		(pin "1"
+			(uuid "b516e5da-a8bb-49a5-85a5-2120057ed518")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 162.56 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de64f7ec-b06c-4fdd-b0b1-661902d45094")
+		(property "Reference" "SW40"
+			(at 166.37 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 166.37 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61c7b88a-392b-4974-919c-94edbd079041")
+		)
+		(pin "1"
+			(uuid "14e9b324-1322-4021-9808-fcf6c39f05b2")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 149.86 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6e4d4d-1dcd-4dd6-8d25-88c26b71c4e4")
+		(property "Reference" "SW29"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad0ad42b-5b88-4e67-b075-580f40d7552a")
+		)
+		(pin "1"
+			(uuid "175e6bfb-1f29-46c5-b723-9ab0b4752882")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecdc5cbb-0711-41e0-bf68-bd881a9490bc")
+		(property "Reference" "SW42_1"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "daac81f6-6e1c-44ca-92c4-0730ce9f8d08")
+		)
+		(pin "1"
+			(uuid "f6e1c4c5-a0ce-489b-baee-425760b86865")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW42_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 128.27 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5383f36-80c5-4f2a-8764-01000c5b5e10")
+		(property "Reference" "SW45_1"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 128.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b02ab6c-59ea-439a-9a7a-85267e5ef5d0")
+		)
+		(pin "1"
+			(uuid "c11c6529-85e4-46bc-8594-6f8811105672")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW45_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 59.69 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f67d69fc-7679-46a9-ad95-c892df1e36fe")
+		(property "Reference" "SW41"
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "099c4b86-7797-4d68-8247-3023d66dc06c")
+		)
+		(pin "1"
+			(uuid "d3270502-fbb2-4dca-abbe-7f243da5e95c")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 137.16 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f85e3ffe-ef4f-4977-85ae-9ed1a70814e0")
+		(property "Reference" "SW8"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cf76caa-5499-4fcf-a8c3-9bf0c6fd8dd9")
+		)
+		(pin "1"
+			(uuid "c117e9e2-6116-4061-88f3-d28b9973b27d")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV70")
+		(at 63.5 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe264d9e-4e35-4a74-af29-6648834aecee")
+		(property "Reference" "D13"
+			(at 60.96 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV70"
+			(at 60.96 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38c3e6ad-c8e2-4c58-ac4f-b36cbcf0c050")
+		)
+		(pin "2"
+			(uuid "86b73aca-f231-4c0a-914f-10f736889c14")
+		)
+		(pin "3"
+			(uuid "75b728eb-7755-4c3a-a6f2-eaf70b293802")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 86.36 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe9997f2-3d18-4a03-bb7f-272ada36516a")
+		(property "Reference" "SW5"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb2505b1-72a8-4799-ac5a-74eb1d243549")
+		)
+		(pin "1"
+			(uuid "a1a319b1-e081-41cb-9b18-b5cb3dd7d066")
+		)
+		(instances
+			(project "45percent"
+				(path "/759fd925-825a-4daf-8537-7345660bb91b"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
